@@ -9,9 +9,13 @@ This site is designed to be a working portfolio of the things I have learned at 
 
 
 HTML - CSS - JavaScript
+
 Lightbox for Kenton Montgomery and Matt Jolley 
+
 Navagation Color Sandbox JQuery - Navagation Color Sandbox 
+
 Bootstrap - The web framework used across site
+
 
 
 ##Author##
