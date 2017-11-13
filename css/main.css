@@ -1,0 +1,144 @@
+/***********************************************/
+/*******************MAIN STYLE******************/
+/***********************************************/
+
+* {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 500;
+}
+
+body {
+    background: linear-gradient(to bottom, rgba(242, 235, 191, .1), rgba(233,228,240, .3));
+}
+
+h3 {
+    font-weight: 600;
+}
+
+#logo{
+    width: 50px;
+    float: right;
+    position: absolute;
+    top: 0px;
+    right: 2%;
+}
+
+.modal-content{
+    background: linear-gradient(to bottom, rgba(92, 75, 81, .75), rgba(91, 134, 229, .5));
+    color: rgba(233,228,240, 1);
+}
+.modal-title {
+    text-shadow: 2px 2px black;
+}
+
+/***********************************************/
+/*********************COLORS********************/
+/***********************************************/
+
+.colorPalletteBlue {
+    background: rgba(71, 138, 245, .95)
+}
+
+.colorPallettePurple{
+    background: rgba(86, 61, 124, .80);
+}
+
+.colorPalletteGreen {
+    background: #C4D8AD;
+}
+
+.colorPalletteTeal {
+    background: rgba(140, 190, 178, 1);
+}
+
+.colorPalletteOrange {
+    background: rgba(243, 181, 98, 1);
+}
+
+.colorPallettePink {
+    background: rgba(243, 187, 154, 1);
+}
+
+/***********************************************/
+/***************JUMBOTRON STYLING***************/
+/***********************************************/
+.jumbotron {
+	height: auto;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    margin-top: 0;
+}
+
+.jumbotron h1{
+    text-shadow: 2px 2px rgba(92, 75, 81, .8);
+	font-family: 'Lora', serif;
+    font-weight: 500;
+}
+
+/***********************************************/
+/*****************BUTTON LAYOUT*****************/
+/*******************HTML.HTML*******************/
+/***********************************************/
+
+/**THESE ARE NEEDED FOR THE JAVASCRIPT ELEMENT**/
+#buttonLayoutContainer {
+    max-width: 900px;
+}
+
+.hidden {
+    display: none;
+}
+
+.contentButtons button{
+    height: 65px;
+    font-size: 30px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.expDiv {
+    height: auto;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.contentBox {
+    display: inline-block;
+}
+
+.contentBox strong{
+    border: solid;
+    padding: 5px;
+}
+
+/***********************************************/
+/******************BREAK POINT******************/
+/***********************************************/
+
+/*****LOGO ANIMATION FOR LARGE SCREENS ONLY*****/
+/***********************************************/
+@media screen and (min-width: 1000px) {
+    .jumbotron {
+        white-space: nowrap; /* Keeps the content on a single line */
+    }
+    
+    .jumbotron H1 {
+        overflow: hidden;
+        border-right: .15em solid orange; /*BLINKING CARET*/
+        margin: 0;
+        font-size: 80px;
+        animation: 
+        blinkingCaretEffect 1s step-end infinite;
+    }
+
+    @keyframes blinkingCaretEffect {
+        from, to { 
+            border-color: transparent;
+        }
+        50% { 
+            border-color: rgba(92, 75, 81, 1); 
+        }
+    }
+    
+}

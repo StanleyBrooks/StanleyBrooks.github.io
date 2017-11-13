@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+		
+        <title>metaCode Louisville</title>
+		
+<!-- Required meta tags -->
+        <meta charset="utf-8">
+		
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		
+<!-- Custom CSS -->
+        <link rel="stylesheet" href="css/main.css">
+        
+<!-- Google Font Lora -->
+        <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+		
+    </head>
+    
+    <body>
+
+<!-- #navBar -->
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top colorPalletteBlue">
+			
+			<div class="container">
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					
+					<ul class="navbar-nav">
+						
+                        <li><a class="nav-item nav-link text-white" href="index.html">Home</a></li>
+						
+						<li><a class="nav-item nav-link text-white" href="hypertext.html">HTML</a></li>
+						
+						<li><a class="nav-item nav-link text-white" href="css.html">CSS</a></li>
+						
+
+						<li><a class="nav-item nav-link text-white" href="js.html">JavaScript</a></li>
+
+						
+						<li><a class="nav-item nav-link text-white" href="links.html">Links</a></li>
+						
+					</ul>
+
+				</div>
+                
+                <img id="logo" src="img/personallogo.svg" alt="">
+				
+			</div>
+			
+		</nav>
+<!-- /#navBar -->
+
+<!-- .jumbotron -->
+		<div class="jumbotron text-white colorPalletteTeal">
+			
+			<div class="container text-sm-center pt-4">
+				
+				<h1 class="display-3">metaCode Louisville</h1>
+				
+				<h3 class="lead text-white">
+					a website about a class about making websites
+				</h3>
+				
+			</div>
+			
+		</div>
+<!-- /.jumbotron -->
+        
+        <h1 class="my-5 display-4 text-center text-muted">Cascading Style Sheets</h1>
+
+<!-- .container -->
+		<div class="container pt-3">
+			
+			<section class="row">
+				
+				<article class="col-lg">
+                    <a href="#selectors">
+                        <h3 class="text-center my-4">Selectors</h3>
+                    </a>
+                    <p>
+                        Selectors declare which part of the markup a style applies to by matching tags and attributes, they define the elements to which a set of CSS rules apply. Here are a basic list of selectors that have been useful thus far.  A CSS rule-set consists of a selector and a declaration block, where the selector points to the HTML element that you want to style.
+                    </p>
+				</article>
+				
+				<article class="col-lg">
+					<a href="#properties">
+                        <h3 class="text-center my-4">Properties</h3>
+                    </a>
+					<p>
+                        An property contains a name and value that are used to style an element.  Here are some that I have used in the CSS for this site, but there are countless others in the documentation.  Most of these definitions are from the Mozilla Developer Network, or an approximation of that definition.
+                    </p>
+				</article>
+                
+                <article class="col-lg">
+					<a href="#links">
+                        <h3 class="text-center my-4">Links</h3>
+                    </a>
+					<p>
+                        Here are the links for documentation about everything that is CSS.  For even more links as well as books that I used as well be sure to checkout the links section of the site (not just the CSS links) 
+				</article>
+                
+            </section>
+				
+                        
+            <container id="selectors" class="col-lg mb-4 mt-4">
+                <h1 class="my-5 display-4 text-center text-muted">CSS Selectors</h1>
+                <p class="list-group-item">
+                    Attribute selector - [attr=value] - used to target elements with a specific attribute in the HTML element.
+                    <code>
+                        a[href] {
+                            background-color: yellow;
+                        }
+                    </code>
+                    This code only targets anchor tags that have a href attribute.
+                </p>
+                <p class="list-group-item">
+                    Class selector - .classname
+                    <code>
+                        .className {
+                            property: Value;
+                        }
+                    </code>
+                </p>
+                <p class="list-group-item">
+                    ID selector - #idname
+                    <code>
+                        #specificIdName {
+                            property: Value;
+                        }
+                    </code>
+                </p>
+                <p class="list-group-item">
+                    Type selector - elementname 
+                    <code>
+                        a {
+                            property: Value;
+                        }
+                    </code>
+                </p>
+                <p class="list-group-item">
+                    Universal selector - * - This targets everything on page
+                    <code>
+                        * {
+                            property: Value;
+                        }
+                    </code>
+                </p>
+                    
+            </container>
+            
+            <container id="properties" class="col-lg mb-4 mt-4">
+            <h2 class="my-5 display-4 text-center text-muted">Properties</h2>
+                
+                <p class="list-group-item">
+                    background - The CSS background shorthand property lets you adjust all of the available background style options at once, including color image, origin and size, repeat method, and other features. background can be used to set the values for one or more of: background-clip, background-color, background-image, background-origin, background-position, background-repeat, background-size, and background-attachment.
+                </p>
+                <p class="list-group-item">
+                    border - The border CSS property is a shorthand property for setting all individual border property values at once: border-width, border-style, and border-color. As with all shorthand properties, any individual value that is not specified is set to its corresponding initial value.
+                </p>
+                <p class="list-group-item">
+                    border-radius - CSS property allows Web authors to define how rounded border corners are. You can specify a single radius to make circular corners, or two radii, to make elliptical corners.
+                </p>
+                <p class="list-group-item">
+                    color - This sets the text color.  Like background, it can be entered keyword, hex, RGB and rgba.
+                </p>
+                <p class="list-group-item">
+                    display - This specifies the type of rendering box used for an element.  The main types used in this site are block, inline, inline-block and none.
+                </p>
+                <p class="list-group-item">
+                    display - inline - An inline element does not start on a new line and only takes up as much width as necessary.
+                </p>
+                <p class="list-group-item">
+                    display - block - A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
+                </p>
+                <p class="list-group-item">
+                    display - inline-block - inline-block elements are like inline elements but they can have a width and a height.
+                </p>
+                <p class="list-group-item">
+                    display - none - This hides the corresponding element, it is used several times throughout this site.  in the html section, it is used to hide a div, and then show it when the corresponding button is clicked.
+                </p>
+                <p class="list-group-item">
+                    font-family - This is how you specify which fonts you want to load on the site.  You can list several in the case that the primary one doesn't work.  This also commonly requires a link with the meta element of the html.
+                </p>
+                <p class="list-group-item">
+                    font-size - typically entered in px or em.  This site uses lots of different font sizes, mostly bootstrap defaults.
+                </p>
+                <p class="list-group-item">
+                    font-weight - This attribute defines the general boldness of the font you are using.  It is uaully entered either by keywork (normal, bold), a numeric values (100-900) or by global values (inherit and initial).  This site uses a font-weight of 500 and 600.
+                </p>
+                <p class="list-group-item">
+                    margin - The outer space of an element.  This is also the space outside of the border of an element.
+                </p>
+                <p class="list-group-item">
+                    padding - The inner space of an element.  This is also the space that is inside the border of en element.
+                </p>
+                <p class="list-group-item">
+                    white-space - The white-space CSS property determines how whitespace inside an element is handled. To make words break within themselves, use overflow-wrap, word-break, or hyphens instead.
+                </p>
+            </container>
+            
+            <container id="links" class="col-lg mb-4 mt-4">
+			
+                <h3 class="my-5 display-4 text-center text-muted">Links</h3>
+
+
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" class="list-group-item list-group-item-action"><strong>General CSS Documentation</strong>: Mozilla Developer Network Documentation (MDN)</a>
+
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors" class="list-group-item list-group-item-action"><strong>CSS Selectors</strong>: Mozilla Developer Network Documentation (MDN)</a>
+
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference" class="list-group-item list-group-item-action"><strong>CSS Properties</strong>: Mozilla Developer Network Documentation (MDN)</a>
+
+                <a href="https://developer.mozilla.org/en-US/docs/tag/CSS%20Data%20Type" class="list-group-item list-group-item-action"><strong>CSS Data Types</strong>: Mozilla Developer Network Documentation (MDN)</a>
+
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout" class="list-group-item list-group-item-action"><strong>FlexBox Documentation</strong>: Mozilla Developer Network Documentation (MDN)</a>
+
+                <a href="https://yoksel.github.io/flex-cheatsheet" class="list-group-item list-group-item-action"><strong>Flexbox Cheatsheet</strong>: Opensource github project by yoksel that does a great job to help conceptualize Flexbox.</a>
+
+			</container>
+			
+            <!-- MODAL callout button -->
+			<button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#modalButton">
+				Contact Stanley Brooks!
+			</button>
+		</div>
+<!-- /.container -->
+        
+<!-- footer -->
+            <footer class="py-1 colorPalletteBlue fixed-bottom text-white">
+
+                <div class="col-md text-md-right">
+
+                    <small>2017 Stanley Brooks</small>
+
+                </div>
+
+            </footer>
+<!-- /footer -->
+
+<!--#modalButton-->
+		<div class="modal fade" id="modalButton" tabindex="-1" role="dialog" aria-labelledby="modalButton form" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3 class="modal-title">Stanley Brooks</h3>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+                        <div class="container col">
+                            <img class="container" src="img/personalLogo.svg" alt="">
+                        </div>
+					</div>
+                    <div class="row">
+                        <div class="col-3 ">
+                            <a href="https://github.com/StanleyBrooks">
+                                <img class="img-thumbnail d-inline" src="img/github.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="mailto:sabroo2@gmail.com">
+                                <img class="img-thumbnail" src="img/email.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="https://twitter.com/stanteloupe">
+                                <img class="img-thumbnail d-inline" src="img/twitter.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="https://www.facebook.com/Stanley.a.Brooks3">
+                                <img class="img-thumbnail d-inline" src="img/FB-fLogo_2016.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">
+							Close
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+<!--#modalButton-->
+
+<!-- JavaScript, jQuery, Popper.js -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        
+	</body>
+</html>

@@ -1,0 +1,138 @@
+.rF {
+    font-family: 'Glegoo';
+}
+
+aside {
+    margin: 1.75em;
+}
+
+.mainHeader {
+	width: 100%;
+	position: fixed;
+    top: 0;
+}
+
+/*-------------------------------------*/
+/*---Working on a Navigation Header----*/
+/*-------------------------------------*/
+.main-nav {
+    background: #478AF5;
+    overflow: hidden;
+}
+
+/*-------------------------------------*/
+/*-----Removing Default Properties-----*/
+/*-------------------------------------*/
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------------------------------*/
+/*--Float and Style Small Screen Nav---*/
+/*-------------------------------------*/
+.nav-item {
+    float: left;
+    width: 33.3333%;
+    line-height: 1.5em;
+}
+
+/*-------------------------------------*/
+/*-----Nav Links Block + Link Color----*/
+/*-------------------------------------*/
+.nav-item a {
+    display: block;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/*-------------------------------------*/
+/*-----Hover Color and Background------*/
+/*-------------------------------------*/
+.nav-item a:hover {
+    background: #F5BB47;
+    color: white;
+}
+
+/*-------------------------------------*/
+/*--Changes Color When Link is Active--*/
+/*-------------------------------------*/
+.nav-item a:active {
+    background: white;
+    color: #478AF5;
+}
+
+/*-------------------------------------*/
+/*---Positions Footer at the Bottom----*/
+/*-------------------------------------*/
+.mainFooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.fancy_font {
+    font-family: 'Courgette';
+}
+h1{
+	font-size: 16px;
+}
+
+/*-------------------------------------*/
+/*-----------FLEXBOX LAYOUT------------*/
+/*-------------------------------------*/
+.flexcontainer {
+	display: flex;
+	margin: 75px 0 45px 0;
+	height: 100%;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.flexitem {
+	margin: 5px;
+	width: 300px;
+}
+
+/*-------------------------------------*/
+/*------------BUTTON STYLE-------------*/
+/*-------------------------------------*/
+
+button {
+	background-color: gray;
+	border-radius: 7px;
+	display: inline-block;
+	width: 80px;
+	color: #ffffff;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+/*-------------------------------------*/
+/*-----------Reflexive Layout----------*/
+/*----Looks better on large screens----*/
+/*------media brake is for content-----*/
+/*-------------------------------------*/
+@media screen and ( min-width: 831px ) {
+
+    .nav-item {
+        width: auto;
+        font-size: 1.25em;
+        line-height: 3em;
+    }
+
+    .nav-item a {
+        padding: 0 1.25em 0 1.25em;
+    }
+    
+    .footer-item {
+        padding: 0;
+        font-size: 1em;
+        line-height: 1.75em;
+        float: right;
+    }
+    
+}

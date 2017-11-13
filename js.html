@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+		
+        <title>metaCode Louisville</title>
+		
+<!-- Required meta tags -->
+        <meta charset="utf-8">
+		
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		
+<!-- Custom CSS -->
+        <link rel="stylesheet" href="css/main.css">
+        
+<!-- Google Font Lora -->
+        <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+		
+    </head>
+    
+    <body>
+
+<!-- #navBar -->
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top colorPalletteBlue">
+			
+			<div class="container">
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					
+					<ul class="navbar-nav">
+						
+                        <li><a class="nav-item nav-link text-white" href="index.html">Home</a></li>
+						
+						<li><a class="nav-item nav-link text-white" href="hypertext.html">HTML</a></li>
+						
+						<li><a class="nav-item nav-link text-white" href="css.html">CSS</a></li>
+						
+						<li><a class="nav-item nav-link text-white" href="js.html">JavaScript</a></li>
+						
+						<li><a class="nav-item nav-link text-white" href="links.html">Links</a></li>
+						
+					</ul>
+
+				</div>
+				<img id="logo" src="img/personallogo.svg" alt="">
+			</div>
+			
+		</nav>
+<!-- /#navBar -->
+
+<!-- .jumbotron -->
+		<div class="jumbotron text-white colorPalletteGreen">
+			
+			<div class="container text-sm-center pt-4">
+				
+				<h1 class="display-3">metaCode Louisville</h1>
+				
+				<h3 class="lead text-white">
+					a website about a class about making websites
+				</h3>
+				
+			</div>
+			
+		</div>
+<!-- /.jumbotron -->
+        
+        <h1 class="my-5 display-4 text-center text-muted">JavaScript</h1>
+        
+        <container class="text-center">
+            <div>
+                <a type="button" class="btn btn-primary d-block m-2 d-md-inline" href="#definitions">Definitions</a>
+
+                <a type="button" class="btn btn-success d-block m-2 d-md-inline" href="#loops">Loops</a>
+                
+                <a type="button" class="btn btn-warning d-block m-2 d-md-inline" href="#examples">Examples</a>
+
+                <a type="button" class="btn btn-danger d-block m-2 d-md-inline" href="#documentation">Documentation</a>
+            </div>
+        </container>
+
+<!-- .container -->
+		
+		<div id="definitions" class="btn-lg container">
+			<p>
+				<code>
+					var myFunction = function [name]([param1[, param2[, ..., paramN]]]) {
+						statements
+					};
+				</code>	
+			</p>
+                        
+            <p class="list-group-item list-group-item-action">
+				<strong>Variables</strong>: variables are containers that you can store values in. 
+            </p>
+			<p class="list-group-item list-group-item-action">
+				<strong>Parameters</strong>: a list of identifiers that work as local variables for the body of the function.
+			</p>
+			<p class="list-group-item list-group-item-action">
+				<strong>Arguments</strong>: values that are passed to a functions parameters.
+			</p>
+            <p class="list-group-item list-group-item-action">
+                <strong>Expressions</strong>: a phrase of JavaScript that a JavaScript iterpreter can evaluate to produce a value.**
+            </p>
+            <p class="list-group-item list-group-item-action">
+                <strong>Functions</strong>: a way of packaging functionality that you wish to reuse.  This is a type of object, they can be assigned to variables and passed to other functions.  Once a function is defined, it can be executed or invoked any number of times.**
+            </p>
+            <p class="list-group-item list-group-item-action">
+                <strong>Statements</strong>: if expressions are a phrase of JavaScript, then a statement is a sentance or command.  There are several different kinds of JavaScript statements like conditional (if and while), Loops (while and for) and Jumps (break, return and throw).  A program is made of up a sequence of JavaScript statements.
+            </p>
+            <p class="list-group-item list-group-item-action">
+                <strong>Objects</strong>: everything in JavaScript is an object, and can be stored in a variable.
+            </p>
+            <p class="list-group-item list-group-item-action">
+                <strong>Methods</strong>: when a function is assigned to the property of an object.
+				<code>
+					object.method = function;
+				</code>
+            </p>
+            <p class="list-group-item list-group-item-action">
+                <strong>Loops</strong>: a statement that allows you to use them same section of code several times in succession to accomplish as task.  There are 4 kinds of JavaScript loops, while, do/while, for and for/in.
+            </p>
+            <p class="list-group-item list-group-item-action">
+                <strong>Events</strong>: code which listen for things happening in browser, running code in response.  Eventlisteners, clickhandlers...etc.
+            </p>
+			<p class="list-group-item list-group-item-action">
+                <strong>Conditionals</strong>: code structures which allow you to test if an expression returns true or not, running alternative code revealed by its result (if then)
+            </p>
+			<cite>
+				All definitions came from or are paraphrased from MDN documentation except the ones maked **, they are from JavaScript the Definitive Guide by David Flanagan.
+			</cite>
+        </div>
+        
+		<div class="container pt-2" id="loops">
+		
+            <h1 class="my-5 display-4 text-center text-muted">Loops</h1>
+            
+			<section class="row">
+                <article class="card col-lg-6">
+                    <div class="card-body">
+                        <h3 class="text-center my-4 ">While Loops</h3>
+                        <p>
+                            The first 3 lines are a function that uses a random number generator.  randomNumber() gives a value between 0 and 1, but never including 1 (between 0 and .99999).  The floor makes it round down and the + 1 ensure that you never get a 0 back.  the upper is the top number that the function will return.
+                        </p>
+                        <p>
+                            The loop starts by declairing the variable counter and setting it to 0.  Line 6 starts the loop with while and a test condition in parentheses which will run untill it tests false.  In this case it is checking the counter var to see if it is less than 10. 0 &lt; 10 so the loop will continue.  line 7 creates a new variable named rand and sets the function equal to it. the 9 is the upper limit.  line 8 does the purpose of the loop, in this case it writes the random number generated to the document.  Finally line 9 adds the the counter variable and starts the loop over again.  At this point the loop tests the condition again ( now 1 &lt; 10 ) and continues again until the test condition is false (on the 10th pass 10 !&lt; 10) so the loop is finished.
+                        </p>
+                        <p>
+                            If this loops test condition is false, it will never run at all, and if it always tests right it is a infinite loop.
+                        </p>
+                    </div>
+                </article>
+                <div class="card col-lg-6">
+                    <img src="img/while-loop-ex1.png" alt="while loop with a random number generator function" class="card-img mt-5 mb-5 rounded">
+                    <img src="img/while-loop-ex2.png" alt="while loop with a boolean condition statement" class="card-img mt-5 mb-5 rounded">                    
+				</div>
+            </section>
+
+            <section class="row">
+                <article class="card col-lg-6">
+                    <div class="card-body">
+                        <h3 class="text-center my-4">Do {} while () Loop</h3>
+                        <p>
+                            These loops are very similar to while loops, the main difference is that this loop always runs the first time because the loop is ran before the test condition is tested.  This loop is useful to prompt a user to give you information and make sure that they give you it to you by repeatedly prompting them.   Usually use a true false variable as a flag to see if the condition was met.
+                        </p>
+                        <p>
+                            This example starts by setting up the variables, and the standard RandomNumber generator.  The formatting of the loop is different...The loop is presented first, and then the test condition is afterward in the while elemenet.  In this case the test condition is that the correctGuess is wrong.  So until you guess correctly, the game will continue, but it always runs atleast once.
+                        </p>
+                    </div>
+                </article>
+                <div class="card col-lg-6">
+                    <img src="img/dowhile-loop.png" alt="Sample Do While Loop" class="card-img mt-5 mb-5 rounded">                  
+				</div>
+            </section>
+
+            <section class="row">
+                <article class="card col-lg-6">
+                    <div class="card-body">
+                        <h3 class="text-center my-4">For Loop</h3>
+                        <p>
+                            The entire first time is the counter info, line 2 is the loop itself and the 3rd line is the close.  It’s common to set the counter variable as a single letter (i).
+                        </p>
+                        <p>
+                            This example shows a couple of important ideas of loops.  The for loop is very similar to while and do while, but it is more condensed.  And this particular loops shows how you can use it to create html, and insert things into a website.  This example produces 25 randomly colored boxes.
+                        </p>
+                    </div>
+                </article>
+                <div class="card col-lg-6 mt-6">
+                    <img src="img/for-loop.png" alt="Sample For Loop" class="card-img mt-5 mb-5 rounded">                  
+				</div>
+            </section>
+            
+            <div class="col-lg mb-4 mt-4">
+				
+                <h3 class="my-5 display-4 text-center text-muted" id="examples">JavaScript Examples</h3>
+
+                <div class="list-group">
+
+                    <a href="colortester.html" class="list-group-item list-group-item-action"><strong>Navigation Color Sandbox</strong>: JavaScript - Manipulating the DOM </a>
+
+                    <a href="lightboxjolley.html" class="list-group-item list-group-item-action"><strong>Matt Jolley Photography</strong>: JavaScript Lightbox</a>
+
+                    <a href="lightboxkenton.html" class="list-group-item list-group-item-action"><strong>Kenton Montgomery Painting</strong>: JavaScript Lightbox</a>
+
+                </div>
+				
+            </div>
+			
+            <section id="documentation" class="col-lg mb-4 mt-4">
+			
+                <h3 class="my-5 display-4 text-center text-muted">Links</h3>
+
+
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="list-group-item list-group-item-action"><strong>General JavaScript Documentation</strong>: Mozilla Developer Network Documentation (MDN)</a>
+
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects" class="list-group-item list-group-item-action"><strong>Standard Objects</strong>: Mozilla Developer Network Documentation (MDN)</a>
+
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types" class="list-group-item list-group-item-action"><strong>Grammar and Types</strong>: Mozilla Developer Network Documentation (MDN)</a>
+
+                <a href="http://devdocs.io/javascript/" class="list-group-item list-group-item-action"><strong>MDN Repository of facts</strong>: Mozilla Developer Network Documentation (MDN)</a>
+
+                <a href="https://developer.mozilla.org/en-US/docs/Web/Events" class="list-group-item list-group-item-action"><strong>JavaScript Event Reference</strong>: Mozilla Developer Network Documentation (MDN)</a>
+
+                <a href="https://api.jquery.com/" class="list-group-item list-group-item-action"><strong>jQuery Documentation</strong>: a lightweight JavaScript library.</a>
+
+			</section>
+			
+            <!-- MODAL callout button -->
+			<button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#modalButton">
+				Contact Stanley Brooks!
+			</button>
+		</div>
+<!-- /.container -->
+        
+<!-- footer -->
+            <footer class="py-1 colorPalletteBlue fixed-bottom text-white">
+
+                <div class="col-md text-md-right">
+
+                    <small>2017 Stanley Brooks</small>
+
+                </div>
+
+            </footer>
+<!-- /footer -->
+
+<!--#modalButton-->
+		<div class="modal fade" id="modalButton" tabindex="-1" role="dialog" aria-labelledby="modalButton form" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3 class="modal-title">Stanley Brooks</h3>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+                        <div class="container col">
+                            <img class="container" src="img/personalLogo.svg" alt="">
+                        </div>
+					</div>
+                    <div class="row">
+                        <div class="col-3 ">
+                            <a href="https://github.com/StanleyBrooks">
+                                <img class="img-thumbnail d-inline" src="img/github.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="mailto:sabroo2@gmail.com">
+                                <img class="img-thumbnail" src="img/email.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="https://twitter.com/stanteloupe">
+                                <img class="img-thumbnail d-inline" src="img/twitter.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="https://www.facebook.com/Stanley.a.Brooks3">
+                                <img class="img-thumbnail d-inline" src="img/FB-fLogo_2016.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">
+							Close
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+<!--#modalButton-->
+
+<!-- JavaScript, jQuery, Popper.js -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        
+	</body>
+</html>

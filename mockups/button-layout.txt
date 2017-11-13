@@ -1,0 +1,33 @@
+html
+	nav
+
+
+	<div> jumbotron
+		<h1></h1>
+		<h2><h2>
+	</div>
+
+	<container>
+		<h1></h1>
+		<ul>
+			<li><a>button</a></li>
+			<li><a>button</a></li>
+			<li><a>button</a></li>
+			<li><a>button</a></li>
+			<li><a>button</a></li>
+		</ul>
+		
+		<img>
+	
+		<article1> <p></p>
+		<article2> <p></p>
+		<article3> <p></p>
+		<article4> <p></p>
+		<article5> <p></p>
+	
+		modal
+
+	</container>
+
+	footer
+

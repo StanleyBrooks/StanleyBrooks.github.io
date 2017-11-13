@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>metaCode Louisville</title>
+<!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<!-- Custom CSS -->
+        <link rel="stylesheet" href="css/main.css">
+<!-- Google Font Lora -->
+        <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    </head>
+    
+    <body>
+<!-- #navBar -->
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top colorPalletteBlue">
+			<div class="container">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<ul class="navbar-nav">
+                        <li><a class="nav-item nav-link text-white" href="index.html">Home</a></li>
+						<li><a class="nav-item nav-link text-white" href="hypertext.html">HTML</a></li>
+						<li><a class="nav-item nav-link text-white" href="css.html">CSS</a></li>
+						<li><a class="nav-item nav-link text-white" href="js.html">JavaScript</a></li>
+						<li><a class="nav-item nav-link text-white" href="links.html">Links</a></li>
+					</ul>
+				</div>
+                <img id="logo" src="img/personallogo.svg" alt="">
+			</div>
+		</nav>
+<!-- /#navBar -->
+
+<!-- .jumbotron -->
+		<div class="jumbotron text-white colorPallettePurple">
+			<div class="container text-sm-center pt-4">
+				<h1 class="display-3">metaCode Louisville</h1>
+				<h3 class="lead text-white">
+					a website about a class about making websites
+				</h3>
+			</div>
+		</div>
+<!-- /.jumbotron -->
+        
+        <div class="container">
+        <p>
+            This website was created to be a reference guide for creating future projects, as well as a working example of these concepts.  It contains definitions, best practices, easy links to documentation as well as a holding ground for my current projects.  This is a work in progress, and will be frequently updated as I continue to learn new tips and tricks.  Be sure to check the README and source code for additional information and comments.
+        </p>
+        </div>
+
+<!-- .container -->
+		<div class="container pt-3">
+			<section class="row">
+                
+				<article class="col-lg">
+                    <a href="hypertext.html">					
+                        <h3 class="mb-3">HTML</h3>
+                        <img class="mb-3 img-fluid rounded d-none d-lg-block" src="img/html.jpg">
+					</a>  
+					<p>
+                        Here are HTML elements that I found to be useful while creating this website. This focuses mainly on common html elements and what they are normally used for with an emphasis on content and structure.  This section also contains major definitions, information about reserved characters in HTML, information about designing for accessibility and HTML Documentation.
+                    </p>
+				</article>
+				
+				<article class="col-lg">
+                    <a href="css.html">
+                        <h3 class="mb-3">CSS</h3>
+                        <img class="mb-3 img-fluid rounded d-none d-lg-block" src="img/css.jpg">
+					</a>
+					<p>
+						Here are the the main types of CSS Selectors and how/when to use them. CSS should controll all of the styling of the site, with a focus on generic class based selectors that can easily be used across an entire website.
+					</p>
+				</article>
+				
+				<article class="col-lg">	
+                    <a href="js.html">
+                        <h3 class="mb-3">JavaScript</h3>
+                        <img class="mb-3 img-fluid rounded d-none d-lg-block" src="img/js.jpg">
+					</a>
+					<p>
+						Here are some useful JavaScript and JQuery links and tips to get you started programming.  It focuses mainly on loops and manipulating the DOM (Document Object Model), you can see working examples of these concepts in my side projects as well as the button layout in css.html.
+					</p>
+				</article>
+                
+			</section>
+
+			<div class="col-lg mb-4 mt-4">
+                <h3 class="my-5 display-4 text-center text-muted">Current Projects</h3>
+                <p>
+                    These projects are still works in progress, and may have limited functionality
+                </p>
+                <div class="list-group">
+                    
+                    <a href="colortester.html" class="list-group-item list-group-item-action"><strong>Navigation Color Sandbox</strong>: JavaScript - Manipulating the DOM </a>
+                    
+                    <a href="lightboxjolley.html" class="list-group-item list-group-item-action"><strong>Matt Jolley Photography</strong>: JavaScript Lightbox</a>
+
+                    <a href="lightboxkenton.html" class="list-group-item list-group-item-action"><strong>Kenton Montgomery Painting</strong>: JavaScript Lightbox</a>
+                </div>
+            </div>
+            
+<!-- MODAL callout button -->
+			<button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#modalButton">
+				Contact Stanley Brooks!
+			</button>
+		</div>
+<!-- /.container -->
+        
+<!-- footer -->
+            <footer class="py-1 colorPalletteBlue fixed-bottom text-white">
+                <div class="col-md text-md-right">
+                    <small>2017 Stanley Brooks</small>
+                </div>
+            </footer>
+<!-- /footer -->
+
+<!--#modalButton-->
+		<div class="modal fade" id="modalButton" tabindex="-1" role="dialog" aria-labelledby="modalButton form" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3 class="modal-title">Stanley Brooks</h3>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+                        <div class="container col">
+                            <img class="container" src="img/personalLogo.svg" alt="">
+                        </div>
+					</div>
+                    <div class="row">
+                        <div class="col-3 ">
+                            <a href="https://github.com/StanleyBrooks">
+                                <img class="img-thumbnail d-inline" src="img/github.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="mailto:sabroo2@gmail.com">
+                                <img class="img-thumbnail" src="img/email.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="https://twitter.com/stanteloupe">
+                                <img class="img-thumbnail d-inline" src="img/twitter.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="https://www.facebook.com/Stanley.a.Brooks3">
+                                <img class="img-thumbnail d-inline" src="img/FB-fLogo_2016.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">
+							Close
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+<!--#modalButton-->
+
+<!-- JavaScript, jQuery, Popper.js -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        
+	</body>
+</html>

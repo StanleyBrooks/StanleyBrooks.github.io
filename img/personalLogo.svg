@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="281.186px"
+	 height="281.186px" viewBox="0 0 281.186 281.186" enable-background="new 0 0 281.186 281.186" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  width="16383" height="16383" y="-8392" x="-7991" bottomLeftOrigin="true"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="Grid" display="none">
+	<rect id="_x31_00px_right" x="240.593" y="-59.407" display="inline" fill="#EBEBEB" width="100" height="400"/>
+	<rect id="_x31_00px_left" x="-59.407" y="-59.407" display="inline" fill="#EBEBEB" width="100" height="400"/>
+	<rect id="_x31_00px_top" x="-59.407" y="-59.407" display="inline" fill="#EBEBEB" width="400" height="100"/>
+	<rect id="_x31_00px_bottom" x="-59.407" y="240.593" display="inline" fill="#EBEBEB" width="400" height="100"/>
+	<rect id="_x37_5px_left" x="-59.407" y="-59.407" display="inline" opacity="0.75" fill="#666666" width="75" height="400"/>
+	<rect id="_x37_5px_top" x="-59.407" y="-59.407" display="inline" opacity="0.75" fill="#666666" width="400" height="75"/>
+	<rect id="_x37_5px_bottom" x="-58.407" y="265.593" display="inline" opacity="0.75" fill="#666666" width="400" height="75"/>
+	<rect id="_x37_5px_right" x="265.593" y="-58.407" display="inline" opacity="0.75" fill="#666666" width="75" height="400"/>
+	<rect id="_x35_0px_left" x="-59.407" y="-59.407" display="inline" opacity="0.8" fill="#CCCCCC" width="50" height="400"/>
+	<rect id="_x35_0px_right" x="290.593" y="-59.407" display="inline" opacity="0.8" fill="#CCCCCC" width="50" height="400"/>
+	<rect id="_x35_0px_top" x="-59.407" y="-59.407" display="inline" opacity="0.8" fill="#CCCCCC" width="400" height="50"/>
+	<rect id="_x35_0px_bottom" x="-59.407" y="290.593" display="inline" opacity="0.8" fill="#CCCCCC" width="400" height="50"/>
+	<rect id="_x32_5px_left" x="-59.407" y="-59.407" display="inline" fill="#EBEBEB" width="25" height="400"/>
+	<rect id="_x32_5px_top" x="-59.407" y="-59.407" display="inline" fill="#EBEBEB" width="400" height="25"/>
+	<rect id="_x32_5px_bottom" x="-59.407" y="315.593" display="inline" fill="#EBEBEB" width="400" height="25"/>
+	<rect id="_x32_5px_right" x="315.593" y="-59.407" display="inline" fill="#EBEBEB" width="25" height="400"/>
+</g>
+<g id="Tile_Square">
+	<path fill="#7B2A3B" d="M139.179,139.179c0.78,0.781,0.78,2.047,0,2.828L71.297,209.89c-0.781,0.781-2.049,0.781-2.829,0
+		L0.586,142.007c-0.781-0.781-0.781-2.047,0-2.829l67.882-67.882c0.78-0.781,2.048-0.781,2.829,0L139.179,139.179z"/>
+	<path fill="#86DDB2" d="M209.889,68.468c0.781,0.781,0.781,2.047,0,2.828l-67.882,67.882c-0.78,0.781-2.048,0.781-2.828,0
+		L71.297,71.296c-0.781-0.781-0.781-2.048-0.001-2.829l67.882-67.882c0.781-0.781,2.048-0.781,2.829,0L209.889,68.468z"/>
+	<path fill="#F8E7A2" d="M280.6,139.179c0.781,0.781,0.781,2.047,0,2.828l-67.883,67.883c-0.78,0.78-2.047,0.78-2.828,0
+		l-67.882-67.883c-0.78-0.781-0.78-2.047,0-2.828l67.882-67.882c0.781-0.781,2.048-0.781,2.828,0L280.6,139.179z"/>
+	<path fill="#E57661" d="M209.889,209.89c0.781,0.78,0.781,2.047,0,2.828L142.007,280.6c-0.781,0.781-2.048,0.781-2.829,0.001
+		l-67.882-67.883c-0.78-0.781-0.78-2.047,0.001-2.828l67.882-67.883c0.78-0.781,2.048-0.781,2.828,0L209.889,209.89z"/>
+	<line fill="#7AC943" x1="140.595" y1="0" x2="140.593" y2="140.593"/>
+</g>
+<g id="Text">
+	<g>
+		<path fill="#262222" stroke="#DBDADA" stroke-width="3" stroke-miterlimit="10" d="M133.8,118.202l-15.712,6.019
+			c-2.239-7.137-6.335-10.707-12.291-10.707c-2.788,0-4.995,0.792-6.62,2.375c-1.626,1.584-2.439,3.432-2.439,5.543
+			c0,2.45,0.96,4.403,2.883,5.86c1.921,1.458,5.944,3.369,12.069,5.733c5.575,2.07,9.957,4.118,13.146,6.146
+			c3.188,2.027,5.765,4.784,7.729,8.268c1.964,3.484,2.946,7.529,2.946,12.133c0,8.066-2.778,14.688-8.331,19.861
+			c-5.554,5.174-12.999,7.76-22.333,7.76c-15.67,0-25.68-7.918-30.03-23.758l16.599-4.75c2.027,8.701,6.652,13.051,13.875,13.051
+			c3.294,0,5.965-0.855,8.015-2.566c2.048-1.711,3.073-3.959,3.073-6.748c0-2.111-0.719-4-2.154-5.67
+			c-1.437-1.668-4.731-3.43-9.883-5.289c-6.631-2.365-11.573-4.508-14.825-6.432c-3.253-1.92-5.935-4.666-8.046-8.236
+			c-2.112-3.568-3.167-7.634-3.167-12.195c0-7.771,2.502-14.138,7.507-19.102c5.005-4.962,11.625-7.444,19.862-7.444
+			C120.707,98.056,130.083,104.771,133.8,118.202z"/>
+		<path fill="#262222" stroke="#DBDADA" stroke-width="3" stroke-miterlimit="10" d="M147.231,99.386h29.523
+			c6.926,0,12.152,0.549,15.68,1.647c3.526,1.099,6.483,3.506,8.87,7.222c2.386,3.717,3.579,8.342,3.579,13.875
+			c0,9.672-4.118,15.881-12.354,18.626c9.799,3.463,14.698,10.54,14.698,21.223c0,5.619-1.33,10.359-3.991,14.225
+			c-2.66,3.863-5.945,6.441-9.852,7.729c-3.907,1.289-9.45,1.932-16.63,1.932h-29.523V99.386z M165.478,134.294h6.146
+			c6.123,0,9.979-1.098,11.562-3.295c1.584-2.195,2.376-4.708,2.376-7.539c0-2.618-0.792-4.951-2.376-7
+			c-1.583-2.048-4.973-3.073-10.168-3.073h-7.539V134.294z M165.478,171.04h9.313c8.743,0,13.115-3.77,13.115-11.309
+			c0-4.193-1.088-7.148-3.264-8.863s-5.459-2.572-9.852-2.572h-9.313V171.04z"/>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+</g>
+</svg>
