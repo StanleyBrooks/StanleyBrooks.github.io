@@ -26,9 +26,11 @@ Kenton Montgomery - Painter - used content for header image and all content in l
 ##codeLouisville##
 
 ##Content Definitions##
+
 All definitions were taken or paraphrased from Mozilla Developer Network, using the MDN links that are given in the links section of the site.  Additional information and resources used to make this website are from the following books that I read while working on the site.
 
 ##Additional Resources##
+
 Head First HTML with CSS and XHTML - Elisabeth and Eric Freeman
 Responsive Web Design - Ethan Marcotte
 CSS3 for Web Designers - Dan Cederholm
