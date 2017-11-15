@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="278.527px"
+	 height="278.528px" viewBox="0 0 278.527 278.528" enable-background="new 0 0 278.527 278.528" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  width="16383" height="16383" y="-8392" x="-7991" bottomLeftOrigin="true"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="Grid" display="none">
+	<rect id="_x31_00px_right" x="239.263" y="-61.242" display="inline" fill="#EBEBEB" width="100" height="400"/>
+	<rect id="_x31_00px_left" x="-60.737" y="-61.242" display="inline" fill="#EBEBEB" width="100" height="400"/>
+	<rect id="_x31_00px_top" x="-60.737" y="-61.242" display="inline" fill="#EBEBEB" width="400" height="100"/>
+	<rect id="_x31_00px_bottom" x="-60.737" y="238.758" display="inline" fill="#EBEBEB" width="400" height="100"/>
+	<rect id="_x37_5px_left" x="-60.737" y="-61.242" display="inline" opacity="0.75" fill="#666666" width="75" height="400"/>
+	<rect id="_x37_5px_top" x="-60.737" y="-61.242" display="inline" opacity="0.75" fill="#666666" width="400" height="75"/>
+	<rect id="_x37_5px_bottom" x="-59.737" y="263.758" display="inline" opacity="0.75" fill="#666666" width="400" height="75"/>
+	<rect id="_x37_5px_right" x="264.263" y="-60.242" display="inline" opacity="0.75" fill="#666666" width="75" height="400"/>
+	<rect id="_x35_0px_left" x="-60.737" y="-61.242" display="inline" opacity="0.8" fill="#CCCCCC" width="50" height="400"/>
+	<rect id="_x35_0px_right" x="289.263" y="-61.242" display="inline" opacity="0.8" fill="#CCCCCC" width="50" height="400"/>
+	<rect id="_x35_0px_top" x="-60.737" y="-61.242" display="inline" opacity="0.8" fill="#CCCCCC" width="400" height="50"/>
+	<rect id="_x35_0px_bottom" x="-60.737" y="288.758" display="inline" opacity="0.8" fill="#CCCCCC" width="400" height="50"/>
+	<rect id="_x32_5px_left" x="-60.737" y="-61.242" display="inline" fill="#EBEBEB" width="25" height="400"/>
+	<rect id="_x32_5px_top" x="-60.737" y="-61.242" display="inline" fill="#EBEBEB" width="400" height="25"/>
+	<rect id="_x32_5px_bottom" x="-60.737" y="313.758" display="inline" fill="#EBEBEB" width="400" height="25"/>
+	<rect id="_x32_5px_right" x="314.263" y="-61.242" display="inline" fill="#EBEBEB" width="25" height="400"/>
+</g>
+<g id="Tile_Square">
+	<path fill="#E57661" d="M277.359,136.446c1.558,1.556,1.558,4.08,0,5.636L142.082,277.361c-1.558,1.556-4.081,1.556-5.638,0.001
+		L1.166,142.082c-1.555-1.556-1.555-4.078,0.001-5.636L136.445,1.167c1.556-1.556,4.082-1.556,5.637,0L277.359,136.446z"/>
+</g>
+<g id="Text">
+	<g>
+		<path fill="#262222" stroke="#DBDADA" stroke-width="3" stroke-miterlimit="10" d="M104.66,96.523v19.242l-35.723,18.37
+			l35.66,18.448l0.063,19.142l-56.195-29.523v-16.219L104.66,96.523z"/>
+		<path fill="#262222" stroke="#DBDADA" stroke-width="3" stroke-miterlimit="10" d="M133.423,133.712l-16.915-1.647
+			c0.802-6.419,3.536-11.361,8.204-14.825c4.666-3.462,10.549-5.195,17.645-5.195c5.996,0,10.812,1.151,14.444,3.453
+			c3.632,2.303,5.924,4.974,6.874,8.014c0.95,3.041,1.426,7.751,1.426,14.128v25.532c0,7.941,0.358,12.671,1.077,14.191h-16.597
+			c-0.594-1.731-0.89-5.005-0.89-9.82c-3.921,7.435-9.76,11.15-17.517,11.15c-4.976,0-9.021-1.488-12.143-4.466
+			c-3.12-2.978-4.679-7.317-4.679-13.02c0-7.138,2.359-12.66,7.082-16.567c4.721-3.906,13.32-6.24,25.799-7.001v-2.407
+			c0-4.266-0.432-7.223-1.293-8.869c-0.862-1.647-2.533-2.471-5.014-2.471C136.387,123.893,133.886,127.167,133.423,133.712z
+			 M147.234,146.827c-5.195,0.59-8.901,1.737-11.119,3.442c-2.217,1.705-3.326,4.579-3.326,8.621c0,5.389,1.985,8.084,5.956,8.084
+			c2.153,0,4.106-1.21,5.86-3.632c1.752-2.421,2.629-6.874,2.629-13.357V146.827z"/>
+		<path fill="#262222" stroke="#DBDADA" stroke-width="3" stroke-miterlimit="10" d="M176.694,171.725v-19.242l35.723-18.369
+			l-35.596-18.486l-0.127-19.104l56.195,29.523v16.219L176.694,171.725z"/>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+</g>
+</svg>

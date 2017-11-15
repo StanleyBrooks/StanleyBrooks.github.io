@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="275.9px"
+	 height="275.902px" viewBox="0 0 275.9 275.902" enable-background="new 0 0 275.9 275.902" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  width="16383" height="16383" y="-8392" x="-7991" bottomLeftOrigin="true"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="Grid" display="none">
+	<rect id="_x31_00px_right" x="239.785" y="-62.05" display="inline" fill="#EBEBEB" width="100" height="400"/>
+	<rect id="_x31_00px_left" x="-60.215" y="-62.05" display="inline" fill="#EBEBEB" width="100" height="400"/>
+	<rect id="_x31_00px_top" x="-60.215" y="-62.05" display="inline" fill="#EBEBEB" width="400" height="100"/>
+	<rect id="_x31_00px_bottom" x="-60.215" y="237.95" display="inline" fill="#EBEBEB" width="400" height="100"/>
+	<rect id="_x37_5px_left" x="-60.215" y="-62.05" display="inline" opacity="0.75" fill="#666666" width="75" height="400"/>
+	<rect id="_x37_5px_top" x="-60.215" y="-62.05" display="inline" opacity="0.75" fill="#666666" width="400" height="75"/>
+	<rect id="_x37_5px_bottom" x="-59.215" y="262.95" display="inline" opacity="0.75" fill="#666666" width="400" height="75"/>
+	<rect id="_x37_5px_right" x="264.785" y="-61.05" display="inline" opacity="0.75" fill="#666666" width="75" height="400"/>
+	<rect id="_x35_0px_left" x="-60.215" y="-62.05" display="inline" opacity="0.8" fill="#CCCCCC" width="50" height="400"/>
+	<rect id="_x35_0px_right" x="289.785" y="-62.05" display="inline" opacity="0.8" fill="#CCCCCC" width="50" height="400"/>
+	<rect id="_x35_0px_top" x="-60.215" y="-62.05" display="inline" opacity="0.8" fill="#CCCCCC" width="400" height="50"/>
+	<rect id="_x35_0px_bottom" x="-60.215" y="287.95" display="inline" opacity="0.8" fill="#CCCCCC" width="400" height="50"/>
+	<rect id="_x32_5px_left" x="-60.215" y="-62.05" display="inline" fill="#EBEBEB" width="25" height="400"/>
+	<rect id="_x32_5px_top" x="-60.215" y="-62.05" display="inline" fill="#EBEBEB" width="400" height="25"/>
+	<rect id="_x32_5px_bottom" x="-60.215" y="312.95" display="inline" fill="#EBEBEB" width="400" height="25"/>
+	<rect id="_x32_5px_right" x="314.785" y="-62.05" display="inline" fill="#EBEBEB" width="25" height="400"/>
+</g>
+<g id="Tile_Square">
+	<path fill="#7B2A3B" d="M274.745,135.159c1.54,1.542,1.54,4.042,0,5.583L140.744,274.746c-1.542,1.542-4.045,1.542-5.585,0
+		L1.157,140.742c-1.542-1.541-1.542-4.042,0-5.584L135.159,1.156c1.54-1.542,4.042-1.542,5.585,0.001L274.745,135.159z"/>
+</g>
+<g id="Text">
+	<g>
+		<path fill="#262222" stroke="#DBDADA" stroke-width="3" stroke-miterlimit="10" d="M129.648,98.568h17.676v19.133l-17.676-0.063
+			V98.568z M129.648,143.423h17.676v17.422l-10.707,22.175h-6.969l8.3-20.464h-8.3V143.423z"/>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+</g>
+</svg>
