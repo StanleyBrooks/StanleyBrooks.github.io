@@ -16,12 +16,7 @@ h3 {
 }
 
 #logo{
-    width: 50px;
-    float: right;
-    position: absolute;
-    top: 0px;
-    right: 2%;
-    z-index: 10;
+    width: 30px;
 }
 
 .modal-content{
@@ -37,7 +32,7 @@ h3 {
 /***********************************************/
 
 .colorPalletteBlue {
-    background: rgba(71, 138, 245, .95)
+    background: rgba(71, 138, 245, 1);
 }
 
 .colorPallettePurple{
@@ -63,17 +58,12 @@ h3 {
 /***********************************************/
 /***************JUMBOTRON STYLING***************/
 /***********************************************/
-.jumbotron {
-	height: auto;
-    margin-bottom: 40px;
-    padding-bottom: 20px;
-    margin-top: 0;
-}
 
 .jumbotron h1{
-    text-shadow: 2px 2px rgba(92, 75, 81, .8);
+    text-shadow: 1px 1px rgba(92, 75, 81, .8);
 	font-family: 'Lora', serif;
     font-weight: 500;
+    font-size: 60px;
 }
 
 /***********************************************/
