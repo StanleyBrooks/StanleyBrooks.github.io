@@ -61,20 +61,17 @@
 			</div>
 		</div>
 <!-- /.jumbotron -->
-        
-        <h1 class="my-5 display-4 text-center text-muted">JavaScript</h1>
-        
-        <container class="text-center">
-            <div>
-                <a type="button" class="btn btn-primary d-block m-2 d-md-inline" href="#definitions">Definitions</a>
 
-                <a type="button" class="btn btn-success d-block m-2 d-md-inline" href="#loops">Loops</a>
-                
-                <a type="button" class="btn btn-warning d-block m-2 d-md-inline" href="#examples">Examples</a>
-
-                <a type="button" class="btn btn-danger d-block m-2 d-md-inline" href="#documentation">Documentation</a>
-            </div>
-        </container>
+<!--#pillsNav-->   
+        <nav class="nav nav-pills nav-justified" id="pillsNav">
+            <a class="nav-item nav-link" href="#definitions">Definitions</a>
+            <a class="nav-item nav-link" href="#loops">Loops</a>
+            <a class="nav-item nav-link" href="#examples">Examples</a>
+            <a class="nav-item nav-link" href="#documentation">Documentation</a>
+        </nav>
+<!--/#pillsNav-->
+        
+        <h1 class="my-3 display-4 text-center">JavaScript</h1>
 
 <!-- .container -->
 		
@@ -130,12 +127,12 @@
         
 		<div class="container pt-2" id="loops">
 		
-            <h1 class="my-5 display-4 text-center text-muted">Loops</h1>
+            <h1 class="my-3 display-4 text-center">Loops</h1>
             
 			<section class="row">
                 <article class="card col-lg-6">
                     <div class="card-body">
-                        <h3 class="text-center my-4 ">While Loops</h3>
+                        <h3 class="my-5 text-center text-muted">While Loops</h3>
                         <p>
                             The first 3 lines are a function that uses a random number generator.  randomNumber() gives a value between 0 and 1, but never including 1 (between 0 and .99999).  The floor makes it round down and the + 1 ensure that you never get a 0 back.  the upper is the top number that the function will return.
                         </p>
@@ -156,7 +153,7 @@
             <section class="row">
                 <article class="card col-lg-6">
                     <div class="card-body">
-                        <h3 class="text-center my-4">Do {} while () Loop</h3>
+                        <h3 class="my-5 text-center text-muted">Do {} while () Loop</h3>
                         <p>
                             These loops are very similar to while loops, the main difference is that this loop always runs the first time because the loop is ran before the test condition is tested.  This loop is useful to prompt a user to give you information and make sure that they give you it to you by repeatedly prompting them.   Usually use a true false variable as a flag to see if the condition was met.
                         </p>
@@ -173,7 +170,7 @@
             <section class="row">
                 <article class="card col-lg-6">
                     <div class="card-body">
-                        <h3 class="text-center my-4">For Loop</h3>
+                        <h3 class="my-5 text-center text-muted">For Loop</h3>
                         <p>
                             The entire first time is the counter info, line 2 is the loop itself and the 3rd line is the close.  It’s common to set the counter variable as a single letter (i).
                         </p>
@@ -189,7 +186,7 @@
             
             <div class="col-lg mb-4 mt-4">
 				
-                <h3 class="my-5 display-4 text-center text-muted" id="examples">JavaScript Examples</h3>
+                <h3 class="my-3 display-4 text-center" id="examples">JavaScript Examples</h3>
 
                 <div class="list-group">
 
@@ -205,7 +202,7 @@
 			
             <section id="documentation" class="col-lg mb-4 mt-4">
 			
-                <h3 class="my-5 display-4 text-center text-muted">Links</h3>
+                <h3 class="my-3 display-4 text-center">Links</h3>
 
 
                 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="list-group-item list-group-item-action"><strong>General JavaScript Documentation</strong>: Mozilla Developer Network Documentation (MDN)</a>

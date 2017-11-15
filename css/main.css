@@ -2,84 +2,119 @@
 /*******************MAIN STYLE******************/
 /***********************************************/
 
+/* universal selector - this matches elements of any type.  This means everything throughout the site - used to set a universal font and font-weight of the document */
+
 * {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 500;
 }
 
-body {
-    background: linear-gradient(to bottom, rgba(242, 235, 191, .1), rgba(233,228,240, .3));
-}
+/* type selector - this matches all elements of a given type within a document. - used to set the weight of a frequently used headline (h3) */
 
 h3 {
     font-weight: 600;
 }
 
+/* ID selector - this matches an element by its unique ID - used to set a fixed width of the logo in the navbar*/
+
 #logo{
     width: 30px;
+}
+
+/***************JUMBOTRON STYLING***************/
+
+.jumbotron h1{
+/*    text-shadow: 1px 1px rgba(92, 75, 81, 1);*/
+    text-shadow: 2px 2px 10px black;
+    /* a small shadow on the main jumbotron h1 to make it easier to read */
+	font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 55px;
+}
+
+
+/* class selector - this matches an element by a class that can be reused many times throughout a page.*/
+.modal-title {
+    text-shadow: 2px 2px black;
+}
+
+/* child combinator this matches only elements matched by the second selector that are children of the elements of the first - used to center headlines in index */
+article > a  > h3 {
+    text-align: center;
+}
+
+/* used to style the psydo class hover for the navbar buttons */
+/*
+.nav-item a:hover {
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
+    color: white;
+}
+*/
+
+/***********************************************/
+/*********************COLORS********************/
+/***********************************************/
+
+/* since this website has pages that are formatted in a very similar manor, I have consolidated all of the color elements together.  this had been handy to change the entire color scheme quickly */
+
+/* the body and modal have gradient background that use the rgba color type.  The rgba is handy because you can easity make them opaque */
+
+body {
+    background: linear-gradient(to top, rgba(242, 235, 191, 0), rgba(233,228,240, .4));
 }
 
 .modal-content{
     background: linear-gradient(to bottom, rgba(92, 75, 81, .75), rgba(91, 134, 229, .5));
     color: rgba(233,228,240, 1);
 }
-.modal-title {
-    text-shadow: 2px 2px black;
-}
 
-/***********************************************/
-/*********************COLORS********************/
-/***********************************************/
+/* hex color format, this works a little better with Adobe Illustrator (which I am using to prototype and create svg files) */
 
 .colorPalletteBlue {
-    background: rgba(71, 138, 245, 1);
+    background: #478AF5;
 }
 
 .colorPallettePurple{
-    background: rgba(86, 61, 124, .80);
+
+    background: #917C92;
 }
 
 .colorPalletteGreen {
-    background: #C4D8AD;
+    background: #A4B876;
 }
 
 .colorPalletteTeal {
-    background: rgba(140, 190, 178, 1);
+    background: #8CBEB2;
+
 }
 
 .colorPalletteOrange {
-    background: rgba(243, 181, 98, 1);
+
+    background: #FFAD5C;
+
 }
 
 .colorPallettePink {
-    background: rgba(243, 187, 154, 1);
-}
 
-/***********************************************/
-/***************JUMBOTRON STYLING***************/
-/***********************************************/
-
-.jumbotron h1{
-    text-shadow: 1px 1px rgba(92, 75, 81, .8);
-	font-family: 'Lora', serif;
-    font-weight: 500;
-    font-size: 60px;
+    background: #FD9D91;
 }
 
 /***********************************************/
 /*****************BUTTON LAYOUT*****************/
-/*******************HTML.HTML*******************/
+/*****************HYPERTEXT.HTML****************/
 /***********************************************/
 
-/**THESE ARE NEEDED FOR THE JAVASCRIPT ELEMENT**/
+
 #buttonLayoutContainer {
     max-width: 900px;
 }
 
+/* used to hide divs in hypertext.html*/
 .hidden {
     display: none;
 }
 
+/* used to style the bototns in hypertext.html (the button layout) */
 .contentButtons button{
     height: 65px;
     font-size: 30px;
@@ -87,6 +122,7 @@ h3 {
     border-radius: 20px;
 }
 
+/* used to style the div that is initially hidden (Expaneded Div) */
 .expDiv {
     height: auto;
     font-size: 16px;
@@ -104,31 +140,44 @@ h3 {
 }
 
 /***********************************************/
-/******************BREAK POINT******************/
+/****SECOND NAV BAR FOR JAVASCRIPT AND LINKS****/
 /***********************************************/
+#pillsNav {
+
+    box-shadow: 0 0 10px black;
+}
+/***********************************************/
+/******************BREAK POINTS*****************/
+/***********************************************/
+
 
 /*****LOGO ANIMATION FOR LARGE SCREENS ONLY*****/
 /***********************************************/
 @media screen and (min-width: 1000px) {
+    
+/* this creates the blinking carot animation in the jumbotron at large screens*/
     .jumbotron {
         white-space: nowrap; /* Keeps the content on a single line */
     }
     
-    .jumbotron H1 {
+/* used the border property to create the blinking carot, it is the right side of the h1's border */
+    .jumbotron h1 {
         overflow: hidden;
-        border-right: .15em solid orange; /*BLINKING CARET*/
-        margin: 0;
+        border-right: .15em solid black;
+        margin: 0 50px;
         font-size: 80px;
+/* @keyframes duration | timing-function | delay */
         animation: 
         blinkingCaretEffect 1s step-end infinite;
     }
 
+/* these are the 2 states of the carot (transparent and black) */
     @keyframes blinkingCaretEffect {
         from, to { 
             border-color: transparent;
         }
         50% { 
-            border-color: rgba(92, 75, 81, 1); 
+            border-color: black; 
         }
     }
     
