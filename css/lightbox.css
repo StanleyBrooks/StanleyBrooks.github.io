@@ -3,20 +3,9 @@
     font-weight: 500;
 }
 
-.colorPalletteBlue {
-    background: rgba(71, 138, 245, .95);
-}
-
-.colorPalletteTeal {
-    background: rgba(140, 190, 178, 1);
-}
-
-html, body {
-    width: 100%;
-    height: 100%;
-}
 body {
-    background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 %);
+    background: linear-gradient(to bottom, #434343 0%, #000000 100%);
+     → 
     width: 100%;
     height: 100%;
     background-attachment: fixed;
@@ -54,4 +43,43 @@ h3 {
 
 #overlay p {
     color: white;
+}
+
+/* cell inherit height from carousel */
+.carousel-cell {
+  height: 100%;
+}
+
+.carousel-cell {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .carousel-cell {
+        width: 50%;
+    }
+    
+    .carousel { 
+        height: 30rem; 
+    }
+    
+    #imageGallery {
+        height: 10rem;
+    }
+    
+    .img-thumbnail {
+    background-color: grey;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    display: inline-block; /* makes it fit in like an <img> */
+    background-size: contain; /* or contain */
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+    
 }
