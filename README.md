@@ -1,12 +1,12 @@
 #metaCodeLouisville#
 
-This site is designed to be a working portfolio of the things I have learned at codeLouisville. This website is specifically built to contain front-end webdesign content, while showing how to use these concepts at the same time. It is a website about a class about making websites.
+This site is designed to be a working portfolio of the things I have learned at codeLouisville. This website is specifically built to contain front-end webdesign content, while showing how to use these concepts at the same time. It is a website about a class about making websites.  This site includes several side projects that I have been working on that include
 
 ##Built With##
 
-HTML - CSS - JavaScript
-Lightbox for Kenton Montgomery and Matt Jolley 
-Navagation Color Sandbox JQuery - Navagation Color Sandbox 
+HTML - CSS - All
+JavaScript - used in button layout of the hypertext.html layout as well as bootstrap modal, Navagation Color Sandbox and flickity.
+JQuery - used for lightbox overlay.
 Bootstrap - The web framework used across site
 
 ##Author##
