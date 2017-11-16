@@ -59,11 +59,13 @@ h3 {
 .flickity-page-dots { 
 	bottom: 10px; 
 }
-#imageGallery {
-	margin-top: 30px;
-}
+
 /* breakpoint for large screens, this activates flickity */
 @media screen and (min-width: 768px) {
+	
+	#imageGallery {
+		margin-top: 30px;
+	}
     
     .carousel-cell {
         width: 50%;
