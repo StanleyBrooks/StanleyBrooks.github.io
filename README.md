@@ -1,6 +1,6 @@
 #metaCodeLouisville#
 
-This site is designed to be a working portfolio of the things I have learned at codeLouisville. This website is specifically built to contain front-end webdesign content, while showing how to use these concepts at the same time. It is a website about a class about making websites.  This site includes several side projects that I have been working on that include
+This site is designed to be a working portfolio of the things I have learned at codeLouisville. This website is specifically built to contain front-end webdesign content, while showing how to use these concepts at the same time. It is a website about a class about making websites.  This site includes several side projects that I have been working on as examples.  These examples are all works of progress that I am currently working to improve and add additional features.
 
 ##Built With##
 
