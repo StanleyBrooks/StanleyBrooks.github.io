@@ -32,23 +32,13 @@ All definitions were taken or paraphrased from Mozilla Developer Network, using 
 ##Additional Resources##
 
 Head First HTML with CSS and XHTML - Elisabeth and Eric Freeman
-
 Responsive Web Design - Ethan Marcotte
-
 CSS3 for Web Designers - Dan Cederholm
-
 HTML5 and CSS3 seventh edition - Elizabeth Castro and Bruce Hyslop
-
 Illustrator CS6 - Elaine Weinmann and Peter Lourekas
-
 Version Control with GIT - Jon Loeliger and Matthew McCullough
-
 HTML and XHTML the Definitive Guide - Chuck Musciano and Bill Kennedy
-
 CSS the Definitive Guide - Eric Meyer
-
 Sergey's HTML5 and CSS3 Quick Reference - Sergey Mavrody
-
 HTML & CSS - Jon Duckett
-
 Javascript & JQuery - Jon Duckett

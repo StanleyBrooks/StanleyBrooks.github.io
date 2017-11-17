@@ -5,8 +5,8 @@
 /* universal selector - this matches elements of any type.  This means everything throughout the site - used to set a universal font and font-weight of the document */
 
 * {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-weight: 400;
+    font-family: 'Lora', serif;
+    font-weight: 500;
 }
 
 /*This keeps the logo small - made this in Illustrator*/
@@ -157,7 +157,7 @@ body {
 @media screen and (min-width: 768px) {
 /* This keeps the dropdown on the navbar (JavaScript) from going over the outer edge */
     .navbar-nav {
-        margin-right: 50px;
+        margin-right: 60px;
     }
 }
 

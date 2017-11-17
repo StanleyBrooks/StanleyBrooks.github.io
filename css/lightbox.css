@@ -91,13 +91,13 @@ h3 {
     }
     
     .img-thumbnail {
-    background-color: grey;
-    width: 250px;
-    height: 250px;
-    overflow: hidden;
-    display: inline-block; /* makes it fit in like an <img> */
-    background-size: contain; /* or contain */
-    background-position: center center;
-    background-repeat: no-repeat;
+        background-color: grey;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        display: inline-block; /* makes it fit in like an <img> */
+        background-size: contain; /* or contain */
+        background-position: center center;
+        background-repeat: no-repeat;
 	}
 }
