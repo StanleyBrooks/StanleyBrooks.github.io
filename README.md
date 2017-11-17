@@ -7,8 +7,11 @@ Built With
 ==========
 
 HTML - CSS - All
+
 JavaScript - used in button layout of the hypertext.html layout as well as bootstrap modal, Navagation Color Sandbox and flickity.
+
 JQuery - used for lightbox overlay.
+
 Bootstrap - The web framework used across site
 
 Author
@@ -26,14 +29,11 @@ Acknowledgments
 
 Matt Jolley 
 -----------
-- Photographer - used content for header image and all content in lightbox1
+Photographer - used content for header image and all content in lightbox1
 
 Kenton Montgomery
 -----------------
-- Painter - used content for header image and all content in lightbox2
-
-codeLouisville
-==============
+Painter - used content for header image and all content in lightbox2
 
 Content Definitions
 ===================
