@@ -1,3 +1,4 @@
+//This is a project to create an image lightbox using an overlay.  It manipulates the DOM using JavaScript by changing the background of various elements with input fields and buttons.  It accepts HEX and keyword.  This is sill a work in progress, and the commented out parts are for future development.
 /////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////
 //DECLAIRING VARIABLES
@@ -125,18 +126,6 @@ allTextButton.addEventListener('click', () => {
     allNavA[i].style.color = allTextInput.value; 
     };
 });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 /////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////

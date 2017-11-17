@@ -22,8 +22,8 @@
             <img id="logo" class="navbar-brand" src="img/sitelogo.svg" data-target="#modalButton" data-toggle="modal">
                 <div class="collapse navbar-collapse" id="navbarColor02">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                        <li class="nav-item active"><!--active makes the nav link show which page you are on-->
+                            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a> 
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="hypertext.html">HTML</a>
@@ -42,7 +42,7 @@
         </nav>    
 <!--/.navBar -->
 
-<!-- .jumbotron -->
+<!-- .jumbotron --> <!-- Titlebar at the top of the page, This is the same throughtout the site, only the color changes -->
 		<div class="jumbotron text-white colorPallettePurple">
 			<div class="container text-center">
 				<h1 class="display-3">metaCode Louisville</h1>
@@ -52,7 +52,8 @@
 			</div>
 		</div>
 <!-- /.jumbotron -->
-        
+
+<!-- Brief Page Description-->
         <div class="container">
             <p>
                 This website was created to be a reference guide for creating future projects, as well as a working example of these concepts.  It contains definitions, best practices, easy links to documentation as well as a holding ground for my current projects.  This is a work in progress, and will be frequently updated as I continue to learn new tips and tricks.  Be sure to check the README and source code for additional information and comments.
@@ -63,10 +64,10 @@
 		<div class="container pt-3">
 			<section class="row">
                 
-				<article class="col-lg">
+				<article class="col-lg"> <!-- col-lg makes the site change to a column layout in large screens-->
                     <a href="hypertext.html">					
                         <h3 class="mb-3">HTML</h3>
-                        <img class="mb-3 img-fluid rounded d-none d-lg-block" src="img/html.jpg">
+                        <img class="mb-3 img-fluid rounded d-none d-lg-block" src="img/html.jpg"> <!-- d-none sets the image to hidden initially.  The d-lg-block displays it in large screens.  This method is used many times throughout the site -->
 					</a>  
 					<p>
                         Here are HTML elements that I found to be useful while creating this website. This focuses mainly on common html elements and what they are normally used for with an emphasis on content and structure.  This section also contains major definitions, information about reserved characters in HTML, information about designing for accessibility and HTML Documentation.
@@ -101,16 +102,19 @@
                     These projects are still works in progress, and may have limited functionality
                 </p>
                 <div class="list-group">
-                    
+                    <!-- First side project used to learn how to manipulate the DOM using JavaScript.  It has a lot of fuctionallity commented out, and is a current work in progress.  It is designed to help pick colors for nav bars and footers -->
                     <a href="colortester.html" class="list-group-item list-group-item-action"><strong>Navigation Color Sandbox</strong>: JavaScript - Manipulating the DOM </a>
-                    
+                    <!-- This was a first try at a lightbox using JQuery, and will be updated in the future -->
                     <a href="lightboxjolley.html" class="list-group-item list-group-item-action"><strong>Matt Jolley Photography</strong>: JavaScript Lightbox</a>
-
+					<!-- This is the latest lightbox that I have been working on, it includes JavaScript and JQuery.  JQuery is used for the overlay and JavaScript is used to initialize Flickity (an image carousel) -->
                     <a href="lightboxkenton.html" class="list-group-item list-group-item-action"><strong>Kenton Montgomery Painting</strong>: JavaScript Lightbox</a>
+					
                 </div>
+				
             </div>
             
 <!-- MODAL callout button -->
+<!-- Button that activates the modal.  The modal is a personal contact page -->
 			<button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#modalButton">
 				Contact Stanley Brooks!
 			</button>
@@ -126,6 +130,7 @@
 <!-- /footer -->
 
 <!--#modalButton-->
+<!-- Modal button that uses JavaScript (via bootstrap) and links to a personal information page.  This modal is used twice on each page, when you click on the page logo in the nav bar, and the modal button at the bottom -->
 		<div class="modal fade" id="modalButton" tabindex="-1" role="dialog" aria-labelledby="modalButton form" aria-hidden="true">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">

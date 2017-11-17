@@ -1,3 +1,5 @@
+//Start Flickity!
+
 var flky = new Flickity( '.gallery', {
   // options, defaults listed
 

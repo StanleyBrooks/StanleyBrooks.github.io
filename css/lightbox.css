@@ -1,3 +1,7 @@
+/*---------------------------------*/
+/*---------Global Layouts----------*/
+/*---------------------------------*/
+
 * {
     font-family: 'Lora', serif;
     font-weight: 500;
@@ -45,22 +49,29 @@ h3 {
     color: white;
 }
 
+/*---------------------------------*/
+/*-------------Flickity------------*/
+/*---------------------------------*/
+
 /* cell inherit height from carousel */
 .carousel-cell {
   height: 100%;
 }
 
+/*This formats the number of images located inside the flickity carousel and image layout*/
 .carousel-cell {
     width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
+/*formatting the dots below flickity*/
 .flickity-page-dots { 
 	bottom: 10px; 
 }
 
-/* breakpoint for large screens, this activates flickity */
+/* breakpoint for large screens, formats flickity in large screens*/
 @media screen and (min-width: 768px) {
 	
 	#imageGallery {
