@@ -40,9 +40,21 @@
                         <li class="nav-item">
                             <a class="nav-link" href="css.html">CSS</a>
                         </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="js.html">JavaScript<span class="sr-only">(current)</span></a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  JavaScript
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item active" href="js.html">JavaScript Notes <span class="sr-only">(current)</span></a>
+                                <div class="dropdown-divider "></div>
+                                <p class="dropdown-item m-0 p0">Examples:</p>
+                                <div class="dropdown-divider m-0 p0"></div>
+                                <a class="dropdown-item" href="lightboxjolley.html">Lightbox - JavaScript</a>
+                                <a class="dropdown-item" href="lightboxkenton.html">Lightbox v2 - Flickity</a>
+                                <a class="dropdown-item" href="colortester.html">Color Tester - JavaScript</a>
+                            </div>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="links.html">Links</a>
                         </li>
@@ -52,7 +64,7 @@
 <!--/.navBar -->
 
 <!-- .jumbotron -->
-		<div class="jumbotron text-white colorPalletteGreen">
+		<div class="jumbotron text-white colorPalletteGreen m-0">
 			<div class="container text-center">
 				<h1 class="display-3">metaCode Louisville</h1>
 				<h3 class="lead text-white">
@@ -70,61 +82,55 @@
             <a class="nav-item nav-link" href="#documentation">Documentation</a>
         </nav>
 <!--/#pillsNav-->
-        
+
+<!-- Used the same general layout as the Links section.  This page consists of  -->
         <h1 class="my-3 display-4 text-center">JavaScript</h1>
 
 <!-- .container -->
 		
 		<div id="definitions" class="btn-lg container">
-			<p>
-				<code>
-					var myFunction = function [name]([param1[, param2[, ..., paramN]]]) {
-						statements
-					};
-				</code>	
-			</p>
                         
-            <p class="list-group-item list-group-item-action">
+            <p class="list-group-item list-group-item">
 				<strong>Variables</strong>: variables are containers that you can store values in. 
             </p>
-			<p class="list-group-item list-group-item-action">
+			<p class="list-group-item list-group-item">
 				<strong>Parameters</strong>: a list of identifiers that work as local variables for the body of the function.
 			</p>
-			<p class="list-group-item list-group-item-action">
+			<p class="list-group-item list-group-item">
 				<strong>Arguments</strong>: values that are passed to a functions parameters.
 			</p>
-            <p class="list-group-item list-group-item-action">
+            <p class="list-group-item list-group-item">
                 <strong>Expressions</strong>: a phrase of JavaScript that a JavaScript iterpreter can evaluate to produce a value.**
             </p>
-            <p class="list-group-item list-group-item-action">
+            <p class="list-group-item list-group-item">
                 <strong>Functions</strong>: a way of packaging functionality that you wish to reuse.  This is a type of object, they can be assigned to variables and passed to other functions.  Once a function is defined, it can be executed or invoked any number of times.**
             </p>
-            <p class="list-group-item list-group-item-action">
+            <p class="list-group-item list-group-item">
                 <strong>Statements</strong>: if expressions are a phrase of JavaScript, then a statement is a sentance or command.  There are several different kinds of JavaScript statements like conditional (if and while), Loops (while and for) and Jumps (break, return and throw).  A program is made of up a sequence of JavaScript statements.
             </p>
-            <p class="list-group-item list-group-item-action">
+            <p class="list-group-item list-group-item">
                 <strong>Objects</strong>: everything in JavaScript is an object, and can be stored in a variable.
             </p>
-            <p class="list-group-item list-group-item-action">
+            <p class="list-group-item list-group-item">
                 <strong>Methods</strong>: when a function is assigned to the property of an object.
 				<code>
 					object.method = function;
 				</code>
             </p>
-            <p class="list-group-item list-group-item-action">
+            <p class="list-group-item list-group-item">
                 <strong>Loops</strong>: a statement that allows you to use them same section of code several times in succession to accomplish as task.  There are 4 kinds of JavaScript loops, while, do/while, for and for/in.
             </p>
-            <p class="list-group-item list-group-item-action">
+            <p class="list-group-item list-group-item">
                 <strong>Events</strong>: code which listen for things happening in browser, running code in response.  Eventlisteners, clickhandlers...etc.
             </p>
-			<p class="list-group-item list-group-item-action">
+			<p class="list-group-item list-group-item">
                 <strong>Conditionals</strong>: code structures which allow you to test if an expression returns true or not, running alternative code revealed by its result (if then)
             </p>
 			<cite>
 				All definitions came from or are paraphrased from MDN documentation except the ones maked **, they are from JavaScript the Definitive Guide by David Flanagan.
 			</cite>
         </div>
-        
+         
 		<div class="container pt-2" id="loops">
 		
             <h1 class="my-3 display-4 text-center">Loops</h1>
@@ -183,6 +189,7 @@
                 <div class="card col-lg-6 mt-6">
                     <img src="img/for-loop.png" alt="Sample For Loop" class="card-img mt-5 mb-5 rounded">                  
 				</div>
+                <cite>Examples from Treehouse JavaScript Videos</cite>
             </section>
             
             <div class="col-lg mb-4 mt-4">

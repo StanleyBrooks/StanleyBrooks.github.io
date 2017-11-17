@@ -23,6 +23,7 @@
                 <div class="collapse navbar-collapse" id="navbarColor02">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active"><!--active makes the nav link show which page you are on-->
+                            <!-- This span element is for screen readers -->
                             <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a> 
                         </li>
                         <li class="nav-item">
@@ -31,8 +32,20 @@
                         <li class="nav-item">
                             <a class="nav-link" href="css.html">CSS</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="js.html">JavaScript</a>
+<!-- JavaScript Dropdown Menu -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  JavaScript
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="js.html">JavaScript Notes</a>
+                                <div class="dropdown-divider "></div>
+                                <p class="dropdown-item m-0 p0">Examples:</p>
+                                <div class="dropdown-divider m-0 p0"></div>
+                                <a class="dropdown-item" href="lightboxjolley.html">Lightbox - JavaScript</a>
+                                <a class="dropdown-item" href="lightboxkenton.html">Lightbox v2 - Flickity</a>
+                                <a class="dropdown-item" href="colortester.html">Color Tester - JavaScript</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="links.html">Links</a>
@@ -44,7 +57,7 @@
 
 <!-- .jumbotron --> <!-- Titlebar at the top of the page, This is the same throughtout the site, only the color changes -->
 		<div class="jumbotron text-white colorPallettePurple">
-			<div class="container text-center">
+			<div class="text-center">
 				<h1 class="display-3">metaCode Louisville</h1>
 				<h3 class="lead text-white">
 					a website about a class about making websites
@@ -98,15 +111,13 @@
 
 			<div class="col-lg mb-4 mt-4">
                 <h3 class="my-5 display-4 text-center text-muted">Current Projects</h3>
-                <p>
-                    These projects are still works in progress, and may have limited functionality
-                </p>
+<!--These projects are still works in progress, and may have limited functionality-->
                 <div class="list-group">
-                    <!-- First side project used to learn how to manipulate the DOM using JavaScript.  It has a lot of fuctionallity commented out, and is a current work in progress.  It is designed to help pick colors for nav bars and footers -->
+<!-- First side project used to learn how to manipulate the DOM using JavaScript.  It has a lot of fuctionallity commented out, and is a current work in progress.  It is designed to help pick colors for nav bars and footers -->
                     <a href="colortester.html" class="list-group-item list-group-item-action"><strong>Navigation Color Sandbox</strong>: JavaScript - Manipulating the DOM </a>
-                    <!-- This was a first try at a lightbox using JQuery, and will be updated in the future -->
+<!-- This was a first try at a lightbox using JQuery, and will be updated in the future -->
                     <a href="lightboxjolley.html" class="list-group-item list-group-item-action"><strong>Matt Jolley Photography</strong>: JavaScript Lightbox</a>
-					<!-- This is the latest lightbox that I have been working on, it includes JavaScript and JQuery.  JQuery is used for the overlay and JavaScript is used to initialize Flickity (an image carousel) -->
+<!-- This is the latest lightbox that I have been working on, it includes JavaScript and JQuery.  JQuery is used for the overlay and JavaScript is used to initialize Flickity (an image carousel) -->
                     <a href="lightboxkenton.html" class="list-group-item list-group-item-action"><strong>Kenton Montgomery Painting</strong>: JavaScript Lightbox</a>
 					
                 </div>

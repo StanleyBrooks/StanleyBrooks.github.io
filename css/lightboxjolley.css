@@ -1,0 +1,10 @@
+/* The only purpose of this stylesheet is to show how cascading style sheets work.  I can easity retrofit my new layout to this lightbox that I have previously made */
+
+.img-thumbnail {
+    background-color: grey;
+    width: 100%;
+    height: auto;
+    background-size: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
