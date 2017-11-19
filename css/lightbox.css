@@ -8,11 +8,11 @@
 }
 
 body {
-    background: linear-gradient(to bottom, #434343 0%, #000000 100%);
-     → 
+    background: linear-gradient(60deg, #29323c 0%, #485563 100%);
+/*    background: linear-gradient(to bottom, #434343 0%, black 100%);*/
+/*    background: linear-gradient(to bottom, #434343 0%, #000000 100%);*/
     width: 100%;
     height: 100%;
-    background-attachment: fixed;
     margin: 0;
     padding: 0;
 }
@@ -36,13 +36,16 @@ h3 {
     left: 10px;
     bottom: 10px; 
     right: 10px;
+/* Initially tried to set the opacity of the overlay to make it semi-transparent, but opacity is inherited by child elements, in this case images.  Using the alpha channel in rgba, seems to work much better */
     background-color: rgba(0,0,0,0.8);
     color: #FFF;
-    z-index:5;
+    z-index: 5;
+/* Sets the overlay to be hidden by default, then when you click on an image in the imageGallery the display is toggled with JavaScript */
     display: none;
     text-align: center;
 }
 
+/* configured images when the overlay is open */
 #overlay img {
     margin: auto;
     top: 10px; 
@@ -58,61 +61,77 @@ h3 {
 #overlay p {
     color: white;
     font-size: 24px;
+/* This keeps the text above the image */
+    display: block;
 }
+
 
 /*---------------------------------*/
 /*-------------Flickity------------*/
 /*---------------------------------*/
 
-/* cell inherit height from carousel */
+/* Size of Flickity Carousel */
+.carousel {
+    height: 30rem;
+    width: 100%;
+    position: absolute;
+}
+
+/* Size of individual cell in carousel, 1 per img */
 .carousel-cell {
-  height: 100%;
+    height: 100%;
+    width: auto;
+    position: relative;
 }
 
-/*This formats the number of images located inside the flickity carousel and image layout*/
-.carousel-cell {
-    width: 75%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+/* Aligns the image within the */
+.carousel img {
+    height: 100%;
+    width: auto;
 }
 
-/*formatting the dots below flickity*/
-.flickity-page-dots { 
-	bottom: 10px; 
+/* Formatting the dots below flickity */
+.flickity-page-dots {
+    background: black;
 }
 
-/* breakpoint for large screens, formats flickity in large screens*/
+.card > p {
+    font-size: 10px;
+}
+
 @media screen and (min-width: 768px) {
     
+/* Breakpoint to fix fontsize in header for lightboxjolley.html */
     #jolleyTitle {
         font-size: 5rem; 
     }
-	
-	#imageGallery {
-		margin-top: 40px;
-	}
     
-    .carousel-cell {
-        width: 50%;
+    
+    
+/* Image layout that uses cards for alignment */
+    .album {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        margin: 0 5%;
+    }
+
+/* Sets up the cards that are used to align imageGallery at the bottom of the screen */
+    .card {
+        float: left;
+        width: 20%;
+        padding: .75rem;
+        margin-bottom: 2rem;
+        background: rgba(0, 0, 0, .5);
+        margin: auto;
+        text-align: center;
     }
     
-    .carousel { 
-        height: 30em;
+}
+
+
+/* Used to fix image alignment issue resulting from text-wrapping */
+@media screen and (min-width: 1075px) {
+    .card > p {
+        font-size: 16px;
     }
-	
-    #imageGallery {
-        height: 10rem;
-    }
-    
-    .img-thumbnail {
-        background-color: grey;
-        width: 100%;
-        height: auto;
-        overflow: hidden;
-        display: inline-block; /* makes it fit in like an <img> */
-        background-size: contain; /* or contain */
-        background-position: center center;
-        background-repeat: no-repeat;
-	}
 }

@@ -9,7 +9,7 @@ var flky = new Flickity( '.gallery', {
   adaptiveHeight: false,
   // set carousel height to the selected slide
 
-  autoPlay: false,
+  autoPlay: true,
   // advances to the next cell
   // if true, default is 3 seconds
   // or set time between advances in milliseconds
@@ -22,7 +22,7 @@ var flky = new Flickity( '.gallery', {
   cellSelector: '.carousel-cell',
   // specify selector for cell elements
 
-  contain: false,
+  contain: true,
   // will contain cells to container
   // so no excess scroll at beginning or end
   // has no effect if wrapAround is enabled
@@ -77,7 +77,7 @@ var flky = new Flickity( '.gallery', {
   // watches the content of :after of the element
   // activates if #element:after { content: 'flickity' }
 
-  wrapAround: false
+  wrapAround: true
   // at end of cells, wraps-around to first for infinite scrolling
 
 });

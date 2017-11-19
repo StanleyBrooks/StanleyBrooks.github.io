@@ -16,172 +16,192 @@
         <link rel="stylesheet" href="css/flickity.min.css">
     </head>
 
-    <body>
-        
+    <body>      
 <!--.navBar -->
         <nav class="navbar navbar-expand-md navbar-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <img id="logo" class="navbar-brand" src="img/sitelogo.svg" data-target="#modalButton" data-toggle="modal">
-                <div class="collapse navbar-collapse" id="navbarColor02">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="hypertext.html">HTML</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="css.html">CSS</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  JavaScript
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="js.html">JavaScript Notes</a>
-                                <div class="dropdown-divider "></div>
-                                <p class="dropdown-item m-0 p0">Examples:</p>
-                                <div class="dropdown-divider m-0 p0"></div>
-                                <a class="dropdown-item" href="lightboxjolley.html">Lightbox - JavaScript</a>
-                                <a class="dropdown-item active" href="lightboxkenton.html">Lightbox v2 - Flickity<span class="sr-only">(current)</span></a>
-                                <a class="dropdown-item" href="colortester.html">Color Tester - JavaScript</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="links.html">Links</a>
-                        </li>
-                    </ul>
-                </div>
+            <a href="index.html">
+                <img id="logo" class="navbar-brand" src="img/sitelogo.svg">
+            </a>
+            <h1 class="navbar-nav ml-auto text-white">
+                Kenton Montgomery Art
+            </h1>
         </nav>    
 <!--/.navBar -->
             
 <!--Flickity image carousel -->
-<!-- Flickity carousel is set to only display on large screens.  Flickity is initialized with JavaScript, and uses classes for style. -->
-            <div class="gallery d-none d-md-block carousel mb-1">
+<!-- Flickity carousel is set to only display on large screens.  Flickity is initialized with JavaScript, and uses classes for style. 
+Check the flickity.js for additional options that I used to setup this image carouse-->
+            <div class="gallery carousel">
 
                 <div class="carousel-cell">
                     <a href="img/bath_salts.jpg" class="">
-                        <img class="img-fluid" src="img/bath_salts.jpg" alt="Bath Salts">
+                        <img class="" src="img/bath_salts.jpg" alt="Bath Salts">
                     </a>
                 </div>
 
                 <div class="carousel-cell">
                     <a href="img/hash_ketchup.jpg" class="">
-                        <img class="img-fluid" src="img/hash_ketchup.jpg" alt="Hash Ketchup by Kenton Montgomery">
+                        <img class="" src="img/hash_ketchup.jpg" alt="Hash Ketchup by Kenton Montgomery">
                     </a>
                 </div>
 
                 <div class="carousel-cell">
                     <a href="img/the_watchers.jpg" class="">
-                        <img class="img-fluid" src="img/the_watchers.jpg" alt="The Watchers by Kenton Montgomery">
+                        <img class="" src="img/the_watchers.jpg" alt="The Watchers by Kenton Montgomery">
                     </a>
                 </div>
 
                 <div class="carousel-cell">
                     <a href="img/unholy_rituals.jpg" class="">
-                        <img class="img-fluid" src="img/unholy_rituals.jpg" alt="Unholy Rituals by Kenton Montgomery">
+                        <img class="i" src="img/unholy_rituals.jpg" alt="Unholy Rituals by Kenton Montgomery">
                     </a>
                 </div>
 
                 <div class="carousel-cell">
                     <a href="img/doge.jpg" class="">
-                        <img class="img-fluid" src="img/doge.jpg" alt="Doge by Kenton Montgomery">
+                        <img class="" src="img/doge.jpg" alt="Doge by Kenton Montgomery">
                     </a>
                 </div>
 
                 <div class="carousel-cell">
                     <a href="img/maneater.jpg" class="">
-                        <img class="img-fluid" src="img/maneater.jpg" alt="Maneater by Kenton Montgomery">
+                        <img class="" src="img/maneater.jpg" alt="Maneater by Kenton Montgomery">
+                    </a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="img/celestial_knowledge.jpg" class="">
+                        <img class="" src="img/celestial_knowledge.jpg" alt="Celestial Knowledge by Kenton Montgomery">
+                    </a>
+                </div>
+                
+                <div class="carousel-cell">
+                    <a href="img/captain_crawdaddy.jpg" class="">
+                        <img class="" src="img/captain_crawdaddy.jpg" alt="Captain Crawdaddy by Kenton Montgomery">
+                    </a>
+                </div>
+                
+                <div class="carousel-cell">
+                    <a href="img/lost_in_space.jpg" class="">
+                        <img class="" src="img/lost_in_space.jpg" alt="Lost in Space by Kenton Montgomery">
+                    </a>
+                </div>
+                
+                <div class="carousel-cell">
+                    <a href="img/the_mcrib_is_back.jpg" class="">
+                        <img class="" src="img/the_mcrib_is_back.jpg" alt="The McRib is Back by Kenton Montgomery">
+                    </a>
+                </div>
+                
+                <div class="carousel-cell">
+                    <a href="img/who_dat_boy.jpg" class="">
+                        <img class="" src="img/who_dat_boy.jpg" alt="Who dat boy by Kenton Montgomery">
                     </a>
                 </div>
 
-<!--IAMGE NEEDS TO BE RESIZED
                 <div class="carousel-cell">
                     <a href="img/marvel.jpg" class="">
-                        <img class="img-fluid thumbnail" src="img/marvel.jpg" alt="Marvel by Kenton Montgomery">
+                        <img class="" src="img/marvel.jpg" alt="Marvel by Kenton Montgomery">
                     </a>
                 </div>
-
 
                 <div class="carousel-cell">
                     <a href="img/the_man_without_fear.jpg" class="">
-                        <img class="img-fluid thumbnail" src="img/the_man_without_fear.jpg" alt="The Man Without Fear by Kenton Montgomery">
+                        <img class="" src="img/the_man_without_fear.jpg" alt="The Man Without Fear by Kenton Montgomery">
                     </a>
                 </div>
--->
  
             </div>
 
 <!--#imageGallery-->
-<!-- when images are clicked on it opens them with an overlay via JavaScript -->
-        <div class="container mt-1">
-            <div class="row" id="imageGallery">
+<!-- This uses bootstraps card class to give the framed look -->
+            <div class="album text-muted text-center align-items-stretch" id="imageGallery">
+<!-- This keeps gallery at one picture per row until the page hits 768px, then it splits into a much smaller grid format -->
+                <div class="row-md">
+                    <div class="card">
+                        <a href="img/bath_salts.jpg">
+                            <img src="img/bath_salts.jpg" alt="Bath Salts by Kenton Montgomery" class="img-thumbnail">
+                        </a>
+                        <p class="card-text">Bath Salts</p>
+                    </div>
 
-                <div class="col-lg-3 col-md-4 col-xs-6">
-                    <a href="img/bath_salts.jpg" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="img/bath_salts.jpg" alt="Bath Salts">
-                    </a>
+                    <div class="card">
+                        <a href="img/hash_ketchup.jpg">
+                            <img src="img/hash_ketchup.jpg" alt="Hash Ketchup by Kenton Montgomery" class="img-thumbnail">
+                        </a>
+                        <p class="card-text">Hash Ketchup</p>
+                    </div>
+
+                    <div class="card">
+                        <a href="img/the_watchers.jpg">
+                            <img src="img/the_watchers.jpg" alt="The Watchers by Kenton Montgomery" class="img-thumbnail">
+                        </a>
+                        <p class="card-text">The Watchers</p>
+                    </div>
+
+                    <div class="card">
+                        <a href="img/unholy_rituals.jpg">
+                            <img src="img/unholy_rituals.jpg" alt="Unholy Rituals by Kenton Montgomery" class="img-thumbnail">
+                        </a>
+                        <p class="card-text">Unholy Rituals</p>
+                    </div>
+
+                    <div class="card">
+                        <a href="img/doge.jpg">
+                            <img src="img/doge.jpg" alt="Doge by Kenton Montgomery" class="img-thumbnail">
+                        </a>
+                        <p class="card-text">Doge</p>
+                    </div>
+
+                    <div class="card">
+                        <a href="img/marvel.jpg">
+                            <img src="img/marvel.jpg" alt="Marvel by Kenton Montgomery" class="img-thumbnail">
+                        </a>
+                        <p class="card-text">Marvel</p>
+                    </div>
+
+                    <div class="card">
+                        <a href="img/the_man_without_fear.jpg">
+                            <img src="img/the_man_without_fear.jpg" alt="The Man Without Fear by Kenton Montgomery" class="img-thumbnail">
+                        </a>
+                        <p class="card-text">The Man Without Fear</p>
+                    </div>
+                    
+                    <div class="card">
+                        <a href="img/captain_crawdaddy.jpg">
+                            <img src="img/captain_crawdaddy.jpg" alt="Captain Crawdaddy by Kenton Montgomery" class="img-thumbnail">
+                        </a>
+                    <p class="card-text">Captain Crawdaddy</p>
+                    </div>
+                    
+                    <div class="card">
+                        <a href="img/celestial_knowledge.jpg">
+                            <img src="img/celestial_knowledge.jpg" alt="Celestial Knowledge by Kenton Montgomery" class="img-thumbnail">
+                        </a>
+                        <p class="card-text">Celestial Knowledge</p>
+                    </div>
+
+                    <div class="card">
+                        <a href="img/who_dat_boy.jpg">
+                            <img src="img/who_dat_boy.jpg" alt="Who dat boy by Kenton Montgomery" class="img-thumbnail">
+                        </a>
+                        <p class="card-text">Who dat boy</p>
+                    </div>
+
+                    <div class="card">
+                        <a href="img/lost_in_space.jpg">
+                            <img src="img/lost_in_space.jpg" alt="Card image cap" class="img-thumbnail">
+                        </a>
+                        <p class="card-text">Lost in Space</p>
+                    </div>
+
+                    <div class="card">
+                        <a href="img/the_mcrib_is_back.jpg">
+                            <img src="img/the_mcrib_is_back.jpg" alt="The McRib is Back by Kenton Montgomery" class="img-thumbnail">
+                        </a>
+                        <p class="card-text">The McRib is Back</p>
+                    </div>
                 </div>
-
-                <div class="col-lg-3 col-md-4 col-xs-6">
-                    <a href="img/hash_ketchup.jpg" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="img/hash_ketchup.jpg" alt="Hash Ketchup by Kenton Montgomery">
-                    </a>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-xs-6">
-                    <a href="img/the_watchers.jpg" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="img/the_watchers.jpg" alt="The Watchers by Kenton Montgomery">
-                    </a>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-xs-6">
-                    <a href="img/unholy_rituals.jpg" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="img/unholy_rituals.jpg" alt="Unholy Rituals by Kenton Montgomery">
-                    </a>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-xs-6">
-                    <a href="img/doge.jpg" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail " src="img/doge.jpg" alt="Doge by Kenton Montgomery">
-                    </a>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-xs-6 w-100">
-                    <a href="img/maneater.jpg" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="img/maneater.jpg" alt="Maneater by Kenton Montgomery">
-                    </a>
-                </div>
-
-<!--Images need to be resized
-                <div class="col-lg-3 col-md-4 col-xs-6">
-                    <a href="img/marvel.jpg" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="img/marvel.jpg" alt="Marvel by Kenton Montgomery">
-                    </a>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4 col-xs-6">
-                    <a href="img/the_man_without_fear.jpg" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="img/the_man_without_fear.jpg" alt="The Man Without Fear by Kenton Montgomery">
-                    </a>
-                </div>
--->
-            </div>
-<!--/#imageGallery-->
-            </div>
-            
-<!-- footer -->
-        <footer class="py-1 colorPalletteBlue fixed-bottom text-white">
-            <div class="col-md text-md-right">
-                <small>2017 Stanley Brooks</small>
-            </div>
-        </footer>
-<!-- /footer -->
-
-
+            </div>        
 <!-- JavaScript, jQuery, Popper.js -->
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         
